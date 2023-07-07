@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/suporte/Documentos/GDU/node_modules/@puppeteer/browsers/node_modules'
+
+npm manifest: 
+  {
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon wpp.js"
+    },
+    "dependencies": {
+      "nodemon": "^2.0.22",
+      "puppeteer": "^20.7.3",
+      "qrcode-terminal": "^0.12.0",
+      "whatsapp-web.js": "^1.19.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
